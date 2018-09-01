@@ -1,0 +1,162 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: right;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+  margin: 0;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+.mission {
+  position: relative;
+  top: 70px;
+  width: 1200px;
+}
+
+.heading {
+  position: relative;
+  bottom: 450px;
+  background-color: black;
+  width: 1200px;
+  line-height: 2;
+}
+
+.teaimg img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* .month { */
+  /* display: flex; */
+  /* width: 1000px; */
+/* } */
+
+.teaofthemonth {
+  display: block;
+  width: 1000px;
+  height: 150px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  padding-bottom: 50px;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.rum h4 {
+  display: block;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  /* background-position: center; */
+  padding-top: 50px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+
+}
+
+.downtown {
+  background-color: black;
+  margin-right: 40px;
+  margin-top: 15px;
+  width: 300px;
+  opacity: 1;
+  line-height: 3;
+}
+
+.bayside {
+  background-color: black;
+  margin-right: 40px;
+  margin-top: 15px;
+  width: 300px;
+  opacity: 1;
+  line-height: 3;
+}
+
+.oakdale {
+  background-color: black;
+  margin-top: 15px;
+  width: 300px;
+  opacity: 1;
+  line-height: 3;
+}
+
+.contact {
+  position: relative;
+  top: 150px;
+  line-height: 3;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  position: relative;
+  top: 200px;
+  padding: 20px;
+}
