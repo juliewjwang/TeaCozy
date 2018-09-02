@@ -60,6 +60,8 @@ nav {
   position: relative;
   top: 70px;
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heading {
@@ -95,6 +97,8 @@ nav {
   justify-content: space-around;
   width: 1000px;
   padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .images img {
@@ -111,8 +115,12 @@ nav {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
-  /* background-position: center; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .boxes {
